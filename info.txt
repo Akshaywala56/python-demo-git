@@ -4,5 +4,23 @@ it creates hidden folder
 this hidden folder track changes whatever you do
 if we do not make this step then it will not catch the progress we made
 
-2)observation of U
+2)observation of U(iuntracked means new file)
 when u created any file after git init that means any update is going on 
+
+3)source control shows 2 means 
+pending changfes we can see directly
+
+4)we need to add 
+
+5) here we can see M  at the right side of file and that is modifiaction
+
+6)git add .
+==>if we added some file and want another file top be updat then 
+we can use this 
+
+7)git commit -m "description"
+
+8)git log
+==>this shows all the edits done by users
+
+9)
