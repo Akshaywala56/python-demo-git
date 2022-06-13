@@ -1,0 +1,8 @@
+1)>git init
+
+it creates hidden folder 
+this hidden folder track changes whatever you do
+if we do not make this step then it will not catch the progress we made
+
+2)observation of U
+when u created any file after git init that means any update is going on 
