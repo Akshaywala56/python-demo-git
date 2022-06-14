@@ -3,6 +3,7 @@
 it creates hidden folder 
 this hidden folder track changes whatever you do
 if we do not make this step then it will not catch the progress we made
+so thee first step required is to do this command
 
 2)observation of U(iuntracked means new file)
 when u created any file after git init that means any update is going on 
@@ -10,9 +11,13 @@ when u created any file after git init that means any update is going on
 3)source control shows 2 means 
 pending changfes we can see directly
 
-4)we need to add 
+4)if we add some file and we make it add then it shows add "A" at the right side of file.after commit that A will get removed
 
-5) here we can see M  at the right side of file and that is modifiaction
+5) here we can see M  at the right side of file and that is modifiaction done 
+
+5)git add ./<file name.file type>
+==>this command is for addition of one new file
+
 
 6)git add .
 ==>if we added some file and want another file top be updat then 
@@ -22,5 +27,29 @@ we can use this
 
 8)git log
 ==>this shows all the edits done by users
+we can see latest 5 changes
 
-9)
+9)git log --oneline
+===>it shows all the edits in the one line .at list top 5
+
+10)git reset <the file code which is we get from above command> --hard
+==>if we want no change after particular step then we can do this command.after that command evrything will get errase
+
+11)git status
+==>this shows the status of we r one which branch now
+
+12)git branch
+==>we can get in which branch we r in
+
+13)git branch <branch we want to create>
+==>we can creat new branch
+
+14)git checkout <branch name>
+==>to change branch from one to other
+
+15)git branch -d <branch name to delete>
+==>to delete branch 
+
+16)git merge <branch name>
+=>we merge the branch but remember merge with maste/main....dont merge main with subbranch
+we have to present in the main then merge with that sub branch
