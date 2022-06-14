@@ -53,3 +53,11 @@ we can see latest 5 changes
 16)git merge <branch name>
 =>we merge the branch but remember merge with maste/main....dont merge main with subbranch
 we have to present in the main then merge with that sub branch
+
+
+17)git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Akshaywala56/python-demo-git.git
+git push -u origin main
